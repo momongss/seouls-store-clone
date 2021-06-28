@@ -1,0 +1,146 @@
+.app-content {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  padding: 32px 0;
+}
+
+.main-banner {
+  width: 1120px;
+  height: 300px;
+
+  position: relative;
+}
+
+.main-banner a {
+  width: 100%;
+  height: 100%;
+}
+
+.main-banner .banner-img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  border-radius: 8px;
+}
+
+.banner-nav {
+  display: flex;
+  flex-direction: row;
+
+  width: 80%;
+  height: 20px;
+
+  position: absolute;
+
+  left: 23px;
+  bottom: 23px;
+}
+
+.banner-nav-li > div {
+  width: 12px;
+  height: 12px;
+
+  margin: 3px;
+
+  border-radius: 100%;
+
+  background-color: rgba(219, 199, 202, 0.5);
+}
+
+.banner-nav-li.selected > div {
+  background-color: white;
+}
+
+.item-category-wrapper {
+  width: 1140px;
+  height: 107px;
+
+  margin-top: 15px;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+}
+
+.item-category-wrapper .category-item {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.category-item img {
+  width: 76px;
+  height: 96px;
+
+  object-fit: cover;
+}
+
+.sub-banner {
+  position: relative;
+}
+
+.sub-banner-list {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+
+  align-items: center;
+}
+
+.sub-banner-item {
+  display: inline-block;
+
+  width: 360px;
+  height: 189px;
+
+  padding: 0 10px;
+}
+
+.sub-banner-item a {
+  display: inline-block;
+
+  width: 100%;
+  height: 100%;
+}
+
+.sub-banner-item img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.sub-banner-btn {
+  all: unset;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+  top: 75px;
+
+  padding: 12px;
+
+  cursor: pointer;
+}
+
+.sub-banner-btn.left {
+  left: -30px;
+}
+
+.sub-banner-btn {
+  right: -30px;
+}
