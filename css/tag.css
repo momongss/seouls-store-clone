@@ -1,0 +1,15 @@
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  display: block;
+
+  all: unset;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: white;
+}
