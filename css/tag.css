@@ -13,3 +13,7 @@ a:active {
 body {
   background-color: white;
 }
+
+button {
+  all: unset;
+}

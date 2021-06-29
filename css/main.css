@@ -184,10 +184,12 @@
   width: 1140px;
 
   position: relative;
-  right: 20px;
+  right: 10px;
 }
 
 .daily .rank-col {
+  flex-grow: 1;
+
   box-sizing: content-box;
 
   width: 360px;
@@ -207,4 +209,104 @@
   align-items: center;
 
   height: 38px;
+
+  padding: 10px 0;
+
+  border-bottom: 1px solid rgb(238, 238, 238);
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.rank-item .icon {
+  box-sizing: border-box;
+
+  width: 38px;
+  height: 38px;
+
+  border: 1px solid #eee;
+  border-radius: 50%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.rank-item .icon img {
+  width: 34px;
+  height: 34px;
+
+  border-radius: 50%;
+}
+
+.rank-item .ranking {
+  padding: 0 10px;
+}
+
+.rank-item .title {
+  margin-right: 100px;
+
+  cursor: pointer;
+
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.rank-item .title:hover {
+  border-bottom-color: black;
+}
+
+.rank-item .follow-btn {
+  all: unset;
+
+  width: 54px;
+  height: 28px;
+
+  text-align: center;
+
+  background-color: #f70061;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  color: white;
+
+  border: 1px solid rgb(222, 0, 87);
+  border-radius: 3px;
+
+  cursor: pointer;
+}
+
+.rank-item .follow-btn:hover {
+  background-color: #c4004d;
+}
+
+.brand-btn-wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+
+  padding: 27px 0 11px 0;
+}
+
+.brand-ranking-btn {
+  all: unset;
+
+  padding: 7px 12px;
+
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.brand-ranking-btn:hover {
+  background-color: #e6e6e6;
 }
