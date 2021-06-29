@@ -1,0 +1,58 @@
+.arrow-key {
+  all: unset;
+
+  width: 20px;
+  height: 20px;
+
+  padding: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+
+  cursor: pointer;
+}
+
+/* banner */
+
+.arrow-key.banner {
+  top: 75px;
+}
+
+.arrow-key.banner.left {
+  left: -30px;
+}
+
+.arrow-key.banner.right {
+  right: -30px;
+}
+
+/* feed */
+
+.arrow-key.feed {
+  top: 160px;
+}
+
+.arrow-key.feed.left {
+  left: -40px;
+}
+
+.arrow-key.feed.right {
+  right: -40px;
+}
+
+/* special-feed */
+
+.arrow-key.special-feed {
+  top: 200px;
+}
+
+.arrow-key.special-feed.left {
+  left: -40px;
+}
+
+.arrow-key.special-feed.right {
+  right: -40px;
+}
