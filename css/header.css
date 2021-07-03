@@ -93,10 +93,8 @@ li {
 
   justify-content: center;
   align-items: center;
-}
 
-.search-icon img {
-  width: 24px;
+  color: rgb(221, 221, 221);
 }
 
 .search-wrapper .search-input {
@@ -104,9 +102,15 @@ li {
 
   width: 100%;
 
+  font-size: 14px;
+
   padding: 10px 40px;
   border: 1px solid var(--faint-black);
   border-radius: 4px;
+}
+
+.search-wrapper .search-input::placeholder {
+  color: rgb(150, 150, 150);
 }
 
 .search-input:focus {
@@ -150,6 +154,10 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  font-size: 20px;
+
+  color: black;
 }
 
 .liked-btn img,

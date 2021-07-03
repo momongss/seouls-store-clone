@@ -9,6 +9,24 @@
   border-top: 1px solid rgb(221, 221, 221);
 }
 
+.store-footer button {
+  padding: 6px 10px 6px 10px;
+
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 3px;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  line-height: 13.2px;
+
+  cursor: pointer;
+}
+
+.store-footer button:hover {
+  background-color: rgb(230, 230, 230);
+}
+
 .company-info-wrapper {
   width: 1120px;
 
@@ -24,8 +42,6 @@
 .company-info {
   box-sizing: content-box;
   width: 265px;
-
-  padding: 0 10px;
 }
 
 .company-info h4 {
@@ -38,43 +54,107 @@
   font-size: 14px;
 }
 
-.company-info .footer-btn {
-  box-sizing: border-box;
-  height: 24.8px;
-
-  padding: 0 10px;
-
-  border: 1px solid rgb(204, 204, 204);
-  border-radius: 3px;
-
-  font-size: 12px;
-  font-weight: 700;
-
-  cursor: pointer;
-}
-
-.company-info .footer-btn:hover {
-  background-color: rgb(230, 230, 230);
-}
-
 .company-info .intro-btns {
   display: flex;
   flex-direction: column;
+
+  margin-bottom: 20px;
 }
 
 .intro-btns .btn-wrapper {
   margin-bottom: 8px;
 }
 
-.company-info .personal-info {
-  display: flex;
-  flex-direction: column;
+.company-info .phone-number {
+  font-weight: 700;
 }
 
-.company-info .personal-info > div {
-  display: inline-block;
+.company-info .kakaotalk-fna {
+  background-color: rgb(251, 229, 26);
+  color: rgb(58, 30, 30);
+
+  height: 20px;
+
+  border: 0;
+}
+
+.company-info .email {
+  color: rgb(102, 102, 102);
+  border-bottom: 1px solid rgb(102, 102, 102);
+}
+
+.company-info .personal-info .text {
   border-bottom: 1px solid rgb(102, 102, 102);
 
   color: rgb(102, 102, 102);
-  font-size: 12px;
+  font-size: 14px;
+}
+
+.company-info .freq-question {
+  height: 24px;
+}
+
+.company-info.sns {
+  /*    */
+}
+
+.company-info.sns .sns-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.company-info.sns .sns-item {
+  width: 66.25px;
+  height: 35px;
+}
+
+.company-info.sns .sns-item i {
+  font-size: 35px;
+  color: black;
+}
+
+.company-info-wrapper-2 {
+  width: 1140px;
+
+  padding: 44px 0 100px 0;
+
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+}
+
+.info-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.company-info-wrapper-2 .info-main .info-text {
+  width: 550px;
+
+  padding: 0 10px;
+}
+
+.company-info-wrapper-2 .info-main .info-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-logo .logo {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  box-sizing: content-box;
+  width: 122.5px;
+  padding: 0 10px;
+}
+
+.info-logo .logo img {
+  height: 60px;
+
+  margin-bottom: 8px;
+}
+
+.company-info-wrapper-2 .info-bottom {
+  padding: 0 10px;
 }
